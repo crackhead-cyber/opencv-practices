@@ -11,6 +11,6 @@ while True:
 capture.release()
 cv.destroyAllWindows()
 
-ghcfgjgfufghıghuıghıghuıghjıghıgjı
+
 
 
