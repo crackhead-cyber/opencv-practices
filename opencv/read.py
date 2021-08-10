@@ -1,3 +1,4 @@
+"""(VİDEO OYNATMA)"""
 import cv2 as cv
 
 capture = cv.VideoCapture('videolar/dog.mp4')
@@ -10,6 +11,13 @@ while True:
         break
 capture.release()
 cv.destroyAllWindows()
+
+"""(FOTOĞRAF GÖRÜNTÜLEME)
+import cv2 as cv
+img = cv.imread('fotograf/cat.jpg')
+cv.imshow('cat',img)
+cv.waitKey(0)"""
+
 
 
 
